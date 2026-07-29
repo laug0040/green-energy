@@ -33,3 +33,15 @@ body {
     line-height: 1.5;
   }
 }
+
+@media (min-width: 60rem) {
+  body {
+    display: grid;
+    justify-items: center;
+    padding: 2rem;
+  }
+
+  body > * {
+    width:min(75rem, 100%); /* I love W3schools */
+  }
+}
