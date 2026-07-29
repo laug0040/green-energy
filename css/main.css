@@ -6,7 +6,7 @@
     --tertiary-colour:#00D1F0;
 }
 
-/* Google Font */
+/* Google Font and Font Settings */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -14,4 +14,22 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+html {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+/* Aligning everything to left for mobile layout */
+body {
+    padding: 2rem;
+    text-align: left;
+}
+
+@media (min-width: 30rem) and (max-width: 60rem) {
+  html {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
