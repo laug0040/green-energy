@@ -1,4 +1,3 @@
-/* I'm trying to go for a frutiger aero look */
 /* Main Colour Palette */
 :root {
     --primary-colour:#00F0C0;
@@ -12,9 +11,9 @@
 
 * {
   font-family:"Montserrat", sans-serif;
-  font-optical-sizing:auto;
-  font-weight:400;
-  font-style:normal;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html {
