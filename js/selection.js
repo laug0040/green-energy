@@ -8,19 +8,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const contents = [{
             title: 'Affordable Solar Panels',
-            img: 'img/placeholder-solar.jpg',
+            img: 'img/solarpanel.jpg',
             html: '<p>Generate your own clean electricity with rooftop solar panels. Government incentives, rebates, and flexible financing make solar adoption accessible.</p>' +
                 '<ul><li>Lower monthly electricity bills</li><li>Increase home value</li><li>Clean, renewable, and sustainable</li></ul>'
         },
         {
             title: 'Community Wind Projects',
-            img: 'img/placeholder-wind.jpg',
+            img: 'img/windmill.jpg',
             html: '<p>Small-scale and community-owned wind projects share costs and benefits across neighborhoods, lowering per-household expense.</p>' +
                 '<ul><li>Shared capital and maintenance</li><li>Lower per-household cost</li><li>Local job creation</li></ul>'
         },
         {
             title: 'Energy Efficiency Upgrades',
-            img: 'img/placeholder-efficiency.jpg',
+            img: 'img/homelight.jpg',
             html: '<p>Insulation, efficient appliances, and smart thermostats reduce consumption and often pay back through lower bills.</p>' +
                 '<ul><li>Immediate bill savings</li><li>Improved comfort</li><li>Long-term reduced energy demand</li></ul>'
         }
